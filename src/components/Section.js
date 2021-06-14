@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Section = ({ title, description, backgroundImg, leftBtnText, rightBtnText }) => {
+const Section = ({ title, description, backgroundImage, leftBtnText, rightBtnText }) => {
     return (
-        <Wrap>
+        <Wrap bgImage={backgroundImage}>
             <ItemText>
                 <h1>{title}</h1>
                 <p>{description}</p>
@@ -29,7 +29,7 @@ export default Section
 const Wrap = styled.div`
     width: 100vw;
     height: 100vh;
-    background-image: url('/images/model-s.jpg');
+    background-image:${props => `url("/images/${props.bgImage}")`};
     background-size: cover;
     background-position: center ;
     background-repeat: no-repeat;
