@@ -34,6 +34,13 @@ const Home = () => {
                     leftBtnText='Custom Order'
                     rightBtnText='Existing Inventory'
                 />
+                <Section
+                    title='Lowest Cost Solar Panels in America'
+                    description='Money-back Guarantee'
+                    backgroundImage='solar-panel.jpg'
+                    leftBtnText='Order Now'
+                    rightBtnText='Learn More'
+                />
             </Container>
         </div>
     )
