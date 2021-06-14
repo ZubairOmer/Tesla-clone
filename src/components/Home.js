@@ -6,6 +6,15 @@ const Home = () => {
     return (
         <div>
             <Container>
+                <Section
+                    title='Model S'
+                    description='Order Online For Touchless Delivery'
+                    backgroundImage='model-s.jpg'
+                    leftBtnText='Custom Order'
+                    rightBtnText='Existing Inventory'
+                />
+                <Section />
+                <Section />
                 <Section />
             </Container>
         </div>
